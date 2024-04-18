@@ -1,0 +1,89 @@
+body {
+  background-color: #001233;
+}
+
+.weather-app {
+  color: #cac0b3;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.input-field {
+  border-radius: 5px;
+  background-color: rgb(199, 195, 195);
+
+  margin: 0 5px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: rgb(199, 195, 195);
+  margin: 0 5px;
+}
+
+.Instructions-text {
+  text-align: center;
+}
+
+.forecast-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #001233;
+  text-align: center;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border-top: 5px solid rgb(105, 103, 103);
+  border-top-style: dashed;
+  color: rgb(153, 150, 150);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.forecast-day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-left: 2px solid #4e4b4b79;
+  border-right: 2px solid #4e4b4b79;
+  padding: 5px;
+  border-radius: 35px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.day-text {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #001233;
+  padding: 10px 0;
+}
+
+.forecast-item {
+  flex: 0 0 calc(33.33% - 10px);
+  color: #cac0b3;
+  border-bottom: 2px solid #4e4b4b79;
+  border-top: 2px solid #4e4b4b79;
+  border-radius: 100px;
+  margin: 2px;
+  min-width: 100px;
+}
+
+.forecast-icon {
+  font-size: 3rem;
+  color: #fa898b;
+}
+
+.forecast-time,
+.forecast-temp,
+.forecast-description,
+.forecast-icon {
+  margin: 1px;
+  text-align: center;
+}
